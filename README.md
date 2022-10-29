@@ -1,6 +1,8 @@
 # codeRacer
 Practice your coding speed in C++, Python, and Javascript
 with this code racer app. 
+Play now:
+https://omr50.github.io/codeRacer/index.html
 
 Made using HTML, CSS, Javascript, and bootstrap. Used random
 word api to retreive random dictionary words. Created an algorithm
@@ -14,5 +16,3 @@ the page.
 It was really fun to build this project especially since I got to sharpen my DOM
 manipulation skills. Its always fun to use vanilla JS.
 
-Play now:
-https://omr50.github.io/codeRacer/index.html
