@@ -1,0 +1,28 @@
+How to create a C++ type racer
+
+Worry about the syntax and formatting later
+
+For now find out how to display basic text and as you type
+the string of text will highlight yellow or red depending on
+whether or not you typed it in correctly.
+
+1. Display text ( figure out how to randomly generate a C++ text (can use random number 
+and arrays with things like variable types, variable names, then randomly include loops
+functions, etc))
+
+2. Add and event listener which will be on the entire page. Once the user clicks, the timer
+will activate and then every time a key is pressed which is within the range of keys a-z 1-9 and
+all other ones like .,/[];'{} etc it wilkl be added to a string we made. This string will then compare
+to the original string of text. For each letter that matches, we change color to yellow  and if they dont
+we change it to red. (reference that video for type racer for more info)
+
+3. Once the user wins, congratulate them and send them to the results page which stores their results using
+local storage and also give them the option to retry or go back to home to try another language.
+
+4. Also can put a navbar with all this stuff like languages and home and results page. Results will use the
+results from local storage. Can have like 3 charts/graphs which contain high score for each language, average
+score, accuracy, etc. It will say no results yet if there are none for a specific language but if there is 
+results in local storage it will use it to show in the list. Default text would be N/A but then it can be 
+changed to the numbers using local results. Dont need any special thing for chart just do a very simple and
+neat layout for each language where you have high score, average, and accuracy and either N/A or use local data.
+If no data at all then just display at top you have not played yet and still keep the charts but have N/A.
